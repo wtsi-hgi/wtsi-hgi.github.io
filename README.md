@@ -1,1 +1,1 @@
-Hello :)
+Directory of HGI projects
