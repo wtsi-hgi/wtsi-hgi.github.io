@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(208, 82%, 16%); // sanger dark blue
+    color: #fff
+    padding: 1em;
+    margin: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+li:before {
+    content: ">";
+    font-family: monospace;
+    padding-right: .7em;
+}
+
+li:before, h1, h2, h3, h4 {
+    color: #fff
+}
+
+p {
+	font-family: monospace;
+}
+
+p, a:link {
+    color: hsl(206, 14%, 77%); // sanger light blue
+}
+
+a:visited {
+    color: hsl(210, 44%, 48%); // sanger medium blue
+}
+
+
