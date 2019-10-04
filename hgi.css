@@ -17,7 +17,7 @@ li {
 }
 
 li:before {
-    content: ">";
+    content: "\276D";
     font-family: monospace;
     padding-right: .7em;
 }
