@@ -26,10 +26,6 @@ li:before, h1, h2, h3, h4 {
     color: #fff
 }
 
-p {
-	font-family: monospace;
-}
-
 p, a:link {
     color: hsl(206, 14%, 77%); // sanger light blue
 }
