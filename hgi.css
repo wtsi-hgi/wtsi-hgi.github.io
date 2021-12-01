@@ -1,23 +1,13 @@
-html * {
-	font-family: sans-serif;
-}
-
 body {
-    background-color: hsl(208, 82%, 16%); // sanger dark blue
-    color: #fff
-    padding: 1em;
-    margin: 1em;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ddd;
+    color: #000;
+    padding: 2em;
 }
 
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-}
-
-li {
-    padding-left: 1em;
-    text-indent: -.7em;
 }
 
 li:before {
@@ -26,16 +16,8 @@ li:before {
     padding-right: .7em;
 }
 
-li:before, h1, h2, h3, h4 {
-    color: #fff
-}
-
-p, a:link {
-    color: hsl(206, 14%, 77%); // sanger light blue
-}
-
-a:visited {
-    color: hsl(210, 44%, 48%); // sanger medium blue
+a {
+    color: #000;
 }
 
 
